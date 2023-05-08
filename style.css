@@ -26,14 +26,14 @@ body {
   position: relative;
   width: 350px;
   height: 180px;
-  background: #333;
+  background: white;
   transition: 0.5s;
 }
 
 .card .lines {
   position: absolute;
   inset: 0;
-  background-color: #000;
+  background-color: yellowgreen;
   overflow: hidden;
 }
 
@@ -42,15 +42,16 @@ body {
   position: absolute;
   top: 50%;
   left: 107%;
-  width: 400px;
+  width: 500px;
   height: 120px;
-  background: linear-gradient(
+  background-color: white;
+  /* background: linear-gradient(
     transparent,
     #45f3ff,
     #45f3ff,
     #45f3ff,
     transparent
-  );
+  ); */
   transform-origin: left;
   animation: animate 4s linear infinite;
   animation-play-state: paused;
@@ -74,7 +75,7 @@ body {
   content: "";
   position: absolute;
   inset: 3px;
-  background-color: #292929;
+  background-color: #fff;
 }
 
 .card .content {
